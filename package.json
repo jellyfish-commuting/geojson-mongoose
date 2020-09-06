@@ -1,0 +1,54 @@
+{
+  "name": "@jellyfish-commuting/geosjon-mongoose",
+  "description": "GeoJson model for mongoose",
+  "keywords": ["geojson", "mongodb", "mongoose"],
+  "license": "MIT",
+  "author": "thejellyfish <the@jellyfish-commuting.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "codecov"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "mongoose": "*"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "ajv": "^6.12.4",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^26.3.0",
+    "codecov": "^3.7.0",
+    "eslint": "5.16.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^25.2.0",
+    "regenerator-runtime": "^0.13.7",
+    "mongoose": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jellyfish-commuting/geosjon-mongoose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jellyfish-commuting/geosjon-mongoose/issues"
+  },
+  "homepage": "https://github.com/jellyfish-commuting/geosjon-mongoose#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ]
+  }
+}
