@@ -1,6 +1,6 @@
-import { Schema } from 'mongoose';
+const { Schema } = require('mongoose');
 
-export const FeaturePoint = new Schema({
+const FeaturePoint = new Schema({
   _id: false,
   type: { type: String, default: 'Feature', enum: ['Feature'] },
   geometry: {
@@ -10,7 +10,7 @@ export const FeaturePoint = new Schema({
   properties: {},
 });
 
-export const FeatureLineString = new Schema({
+const FeatureLineString = new Schema({
   _id: false,
   type: { type: String, default: 'Feature', enum: ['Feature'] },
   geometry: {
@@ -19,3 +19,8 @@ export const FeatureLineString = new Schema({
   },
   properties: {},
 });
+
+module.exports = {
+  FeaturePoint,
+  FeatureLineString,
+};
