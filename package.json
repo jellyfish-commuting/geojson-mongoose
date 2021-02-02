@@ -1,5 +1,5 @@
 {
-  "name": "@jellyfish-commuting/geojson-mongoose",
+  "name": "@jollie/geojson-mongoose",
   "description": "GeoJson model for mongoose",
   "keywords": ["geojson", "mongodb", "mongoose"],
   "license": "MIT",
@@ -32,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jellyfish-commuting/geojson-mongoose.git"
+    "url": "git://github.com/thejellyfish/geojson-mongoose.git"
   },
   "bugs": {
-    "url": "https://github.com/jellyfish-commuting/geojson-mongoose/issues"
+    "url": "https://github.com/thejellyfish/geojson-mongoose/issues"
   },
-  "homepage": "https://github.com/jellyfish-commuting/geojson-mongoose#readme",
+  "homepage": "https://github.com/thejellyfish/geojson-mongoose#readme",
   "publishConfig": {
     "access": "public"
   },
